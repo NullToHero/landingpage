@@ -1,5 +1,6 @@
 * {
-  font-family: "Roboto", "Times New Roman", sans-serif;
+  outline: 1px solid red;
+  font-family: "Roboto";
   margin: 0;
   padding: 0;
 }
@@ -8,16 +9,14 @@ a {
   text-decoration: none;
   color: #e5e7eb;
   font-size: 18px;
-  background-color: dimgray;
 }
 
 ul {
   list-style-type: none;
   display: flex;
-  font-weight: bold;
   margin: 0;
   padding: 0;
-  gap: 20px;
+  gap: 30px;
 }
 
 body {
@@ -45,10 +44,15 @@ header {
 
 .linksright a {
   display: flex;
-  outline: 0.5px solid black;
-  margin-top: 1rem;
-  margin-right: 2rem;
-  padding: 5px;
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-left: 15px;
+  font-size: 20px;
+}
+
+.linksright a:hover {
+  text-decoration: underline;
+  padding: 15px;
 }
 
 .break {
@@ -73,7 +77,7 @@ header {
   margin: 10px;
 }
 
-.heromain H3 {
+.heromain p {
   font-size: 18px;
   color: #e5e7eb;
   max-width: 50%;
@@ -131,16 +135,96 @@ header {
   display: flex;
   justify-content: center;
   gap: 150px;
+  padding-top: 1rem;
+  padding-bottom: 6rem;
 }
 
-.info {
+.infocontainer img {
+  outline: 5px solid #3882f6;
+  border-radius: 4px;
+}
+
+.infocontainer .text {
+  color: dimgray;
+  font-size: 22px;
+}
+
+.quotesection {
+  background-color: #e5e7eb;
   display: flex;
+  flex: 1;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: light italic;
+  color: #1f2937;
+  margin-top: 8rem;
+  margin-left: 20rem;
+  margin-right: 20rem;
+}
+
+.cite {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  margin-left: 40rem;
+  margin-bottom: 10rem;
+}
+
+.callwrapper {
+  display: flex;
+  margin: 6rem 16rem;
+  background: #3882f6;
+  border-radius: 8px;
+}
+
+.callcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.calltext {
+  padding: 3rem 3rem;
+  margin-left: 12rem;
+}
+
+.bigcall {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.littlecall {
+  font-size: 18px;
+  color: white;
+}
+
+.callforbutton {
+  margin-left: 25rem;
+}
+
+.callbutton {
+  outline-color: #f1f1f1;
+  background: #3882f6;
+  color: #f1f1f1;
+  font-size: 18px;
+  font-weight: bold;
+  width: 120px;
+  height: 30px;
+  border-radius: 8px;
 }
 
 .footercontainer {
   background: #1f2937;
   padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 .footer {
@@ -168,9 +252,13 @@ header {
 
 .footer-heading a {
   color: #e5e7eb;
-  font-weight: bold;
   text-decoration: none;
   margin-bottom: 0.5rem;
+  font-size: 16px;
+}
+
+.footer-heading a:hover {
+  text-decoration: underline;
 }
 
 .footer-email-forums h2 {
@@ -186,20 +274,22 @@ header {
   padding-left: 0.5rem;
   font-size: 1rem;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 #footer-email::placeholder {
-  color: #b1b1b1;
+  background-color: #f1f1f1;
+  border-color: #1f2937;
 }
 
 #footer-email-btn {
   width: 100px;
   height: 40px;
-  border-radius: 4px;
+  border-radius: 6px;
   font-size: 1rem;
   color: whitesmoke;
   font-weight: bold;
   background-color: dimgrey;
   outline: none;
-  border: none;
+  border-color: #1f2937;
 }
