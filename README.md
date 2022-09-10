@@ -16,8 +16,9 @@ The requirements for the css styling are but not limited to:
 - font type displayed in the exercise is roboto
 
 Photograph credits
--Drew Beamer @https://unsplash.com/photos/Vc1pJfvoQvY for mid header image
 
--
--
--
+- Photo by Clark Tibbs for https://unsplash.com/photos/oqStl2L5oxI (mid header image near main hero content)
+- Photo by Samuel Girven for https://unsplash.com/photos/VJ2s0c20qCo (personal training photo)
+- Photo by Markus Spiske for https://unsplash.com/photos/OO89_95aUC0 (childcare services photo)
+- Photo by HUUM for https://unsplash.com/photos/xn_MghoT9HE?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink (indoor sauna photo)
+- Photo by Victor Freitas for https://www.pexels.com/photo/person-lifting-barbell-indoors-2261485/ (group class photo)

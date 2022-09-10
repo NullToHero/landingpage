@@ -111,7 +111,7 @@ header {
   display: flex;
   flex: 1;
   margin-left: 10rem;
-  max-width: 450px;
+  max-width: 475px;
   flex-direction: column;
   text-decoration: none;
 }
@@ -142,11 +142,15 @@ header {
 .infocontainer img {
   outline: 5px solid #3882f6;
   border-radius: 4px;
+  width: 250px;
+  height: 250px;
 }
 
 .infocontainer .text {
   color: dimgray;
   font-size: 22px;
+  text-align: center;
+  width: 250px;
 }
 
 .quotesection {
