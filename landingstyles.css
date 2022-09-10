@@ -24,6 +24,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 header {
@@ -62,16 +64,14 @@ header {
 .herocontainer {
   display: flex;
   flex-direction: row;
-  margin-left: 10rem;
-  width: 100%;
   padding: 100px;
   padding-right: 15%;
+  padding-left: 10%;
   margin-bottom: 2rem;
 }
 .heromain H1 {
   font-size: 48px;
   font-weight: bolder;
-  max-width: 75%;
   color: #f9faf8;
   margin: 10px;
 }
@@ -79,7 +79,6 @@ header {
 .heromain p {
   font-size: 18px;
   color: #e5e7eb;
-  max-width: 50%;
   margin: 10px;
   margin-bottom: 4px;
 }
@@ -90,7 +89,6 @@ header {
   font-size: 18px;
   font-weight: bold;
   border-color: #1f2937;
-  width: 15%;
   padding: 4px;
   text-align: center;
   text-decoration: none;
@@ -102,7 +100,7 @@ header {
 .caption {
   display: flex;
   flex: 1;
-  margin-left: 6rem;
+  margin-left: 10rem;
 }
 
 #gympic a {
@@ -180,21 +178,19 @@ header {
 
 .callwrapper {
   display: flex;
-  margin: 6rem 16rem;
-  background: #3882f6;
-  border-radius: 8px;
+  margin: 8rem 12rem;
 }
 
 .callcontainer {
   display: flex;
+  flex: 1;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
+  padding: 3rem 16px 3rem 16px;
+  gap: 8rem;
   align-items: center;
-}
-
-.calltext {
-  padding: 3rem 3rem;
-  margin-left: 12rem;
+  border-radius: 8px;
+  background: #3882f6;
 }
 
 .bigcall {
@@ -207,10 +203,6 @@ header {
 .littlecall {
   font-size: 18px;
   color: white;
-}
-
-.callforbutton {
-  margin-left: 25rem;
 }
 
 .callbutton {
